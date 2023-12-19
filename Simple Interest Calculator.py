@@ -1,0 +1,11 @@
+p = int(input("Principal :"))
+r = int(input("Rate :"))
+t = int(input("Time :"))
+si = (p * r * t)/100
+am = (p+si)
+consent = input("Would you like to calculate the interest?")
+if consent == "Yes": print("The simple interest is", si)
+if consent == "No": print("Fine i won't calculate it")
+amount = input("Would you like to calculate the interest too? :")
+if amount == "Yes": print("The amount is", am)
+if amount == "No": print("Fine I will not calculate it")
